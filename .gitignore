@@ -1,0 +1,16 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Reports
+allure-results/
+allure-report/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
