@@ -36,7 +36,8 @@ jobs:
 
       - name: Run tests (headless) with Allure
         run: |
-          pytest -m "ui or api or sql" --alluredir=allure-results
+          pytest -m "not demo_fail" --alluredir=allure-results
+          # pytest -m "ui or api or sql" --alluredir=allure-results
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
