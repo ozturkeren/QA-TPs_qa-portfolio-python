@@ -5,6 +5,8 @@ __pycache__/
 
 # Reports
 allure-results/
+allure-results-demo/
+allure-results-pass/
 allure-report/
 
 # IDE

@@ -28,6 +28,22 @@ allure serve allure-results
 
 ---
 
+## Screenshots — Passing Tests (manual captures)
+
+API – List users (passed)  
+![API users (passed)](docs/screenshots/api_users_pass.png)
+
+SQL – SQLite smoke (passed)  
+![SQL smoke (passed)](docs/screenshots/sqlite_smoke_pass.png)
+
+Playwright – Add to cart (passed)  
+![Playwright add to cart (passed)](docs/screenshots/playwright_cart_pass.png)
+
+Selenium – Login flow (passed)  
+![Selenium login (passed)](docs/screenshots/selenium_login_pass.png)
+
+---
+
 ## Screenshots (manual demo failures)
 
 Selenium (intentional fail)  
