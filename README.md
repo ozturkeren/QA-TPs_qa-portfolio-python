@@ -25,3 +25,13 @@ python -m playwright install
 pytest -m "ui or api" --alluredir=allure-results
 allure serve allure-results
 ```
+
+---
+
+## Screenshots (manual demo failures)
+
+Selenium (intentional fail)  
+![Selenium demo failure](docs/screenshots/selenium_demo_fail.png)
+
+Playwright (intentional fail)  
+![Playwright demo failure](docs/screenshots/playwright_demo_fail.png)
